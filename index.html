@@ -21,7 +21,7 @@
 <!-- ===== NAVBAR ===== -->
 <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top custom-navbar">
   <div class="container">
-    <a class="navbar-brand" href="#introduction">
+    <a class="navbar-brand" href="#home">
       <span class="brand-icon"><i class="fa-solid fa-laptop-code"></i></span>
       <span class="brand-text-wrap">
         <span class="brand-text">CodeKids Academy</span>
@@ -33,8 +33,8 @@
     </button>
     <div class="collapse navbar-collapse" id="navMenu">
       <ul class="navbar-nav mx-auto nav-links">
-        <li class="nav-item"><a class="nav-link active" href="#introduction">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#categories-section">Courses</a></li>
         <li class="nav-item"><a class="nav-link" href="#resources">Resources</a></li>
         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
       </ul>
@@ -44,7 +44,7 @@
 </nav>
 
 <!-- ===== HERO ===== -->
-<section id="introduction" class="hero-section">
+<section id="home" class="hero-section">
   <div class="container">
     <div class="row align-items-center gy-5">
       <div class="col-lg-6">
@@ -57,8 +57,8 @@
           Fun and easy web development lessons for kids. Build real projects, gain confidence, and become the creators of tomorrow.
         </p>
         <div class="hero-buttons">
-          <a href="#courses" class="btn btn-primary-custom">Start Learning Today <i class="fa-solid fa-arrow-right"></i></a>
-          <a href="#courses" class="btn btn-outline-custom">Explore Categories</a>
+          <a href="#categories-section" class="btn btn-primary-custom">Start Learning Today <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#categories-section" class="btn btn-outline-custom">Explore Categories</a>
         </div>
       </div>
       <div class="col-lg-6">
@@ -109,7 +109,7 @@
 </section>
 
 <!-- ===== FEATURED / WHY KIDS LOVE ===== -->
-<section id="featured" class="featured-section">
+<section id="introduction" class="featured-section">
   <div class="container text-center">
     <span class="eyebrow">FEATURED</span>
     <h2 class="section-title">Why Kids Love Learning With Us</h2>
@@ -153,7 +153,7 @@
 </section>
 
 <!-- ===== CATEGORIES / COURSES ===== -->
-<section id="courses" class="categories-section">
+<section id="categories-section" class="categories-section">
   <div class="container text-center">
     <span class="eyebrow eyebrow-light">CATEGORIES</span>
     <h2 class="section-title text-white">Explore Our Learning Paths</h2>
@@ -163,7 +163,7 @@
       <div class="col-md-6 col-lg-3">
         <div class="category-card">
           <div class="category-thumb thumb-1"><img src="https://images.unsplash.com/photo-1576145790918-bdddd6d5ad21?fm=jpg&amp;q=70&amp;w=800&amp;auto=format&amp;fit=crop" alt="HTML code on a monitor"></div>
-          <div class="category-body">
+          <div class="category-body" id="categories">
             <h5>Web Basics</h5>
             <p>Start with the basics of HTML, CSS, and how websites work.</p>
             <a href="#resources" class="btn btn-explore">Explore</a>
@@ -173,7 +173,7 @@
       <div class="col-md-6 col-lg-3">
         <div class="category-card">
           <div class="category-thumb thumb-2"><img src="https://images.unsplash.com/photo-1716471330475-f0669db8947a?fm=jpg&amp;q=70&amp;w=800&amp;auto=format&amp;fit=crop" alt="Colorful design swatches"></div>
-          <div class="category-body">
+          <div class="category-body" id="categories">
             <h5>Creative Design</h5>
             <p>Learn how to make your websites look amazing with CSS.</p>
             <a href="#resources" class="btn btn-explore">Explore</a>
@@ -183,7 +183,7 @@
       <div class="col-md-6 col-lg-3">
         <div class="category-card">
           <div class="category-thumb thumb-3"><img src="https://images.unsplash.com/photo-1653387319597-84bde7e5368e?fm=jpg&amp;q=70&amp;w=800&amp;auto=format&amp;fit=crop" alt="JavaScript code on a screen"></div>
-          <div class="category-body">
+          <div class="category-body" id="categories">
             <h5>Interactive Fun</h5>
             <p>Add interactivity with JavaScript and make projects come alive.</p>
             <a href="#resources" class="btn btn-explore">Explore</a>
@@ -193,7 +193,7 @@
       <div class="col-md-6 col-lg-3">
         <div class="category-card">
           <div class="category-thumb thumb-4"><img src="https://images.unsplash.com/photo-1506097425191-7ad538b29cef?fm=jpg&amp;q=70&amp;w=800&amp;auto=format&amp;fit=crop" alt="Laptop displaying colorful website mockups"></div>
-          <div class="category-body">
+          <div class="category-body" id="categories">
             <h5>Build &amp; Publish</h5>
             <p>Build complete websites and learn how to publish them online.</p>
             <a href="#resources" class="btn btn-explore">Explore</a>
@@ -255,7 +255,7 @@
       <!-- About -->
       <div class="col-lg-6">
         <span class="eyebrow">ABOUT US</span>
-        <h2 class="section-title text-start">Our Mission</h2>
+        <h2 class="section-title text-start" id="mission">Our Mission</h2>
         <div class="d-flex gap-4 mt-4">
           <div class="mission-visual"><i class="fa-solid fa-signs-post"></i></div>
           <div>
@@ -306,7 +306,7 @@
   <div class="container">
     <div class="row g-4">
       <div class="col-lg-4">
-        <a class="navbar-brand text-white" href="#introduction">
+        <a class="navbar-brand text-white" href="#home">
           <span class="brand-icon"><i class="fa-solid fa-laptop-code"></i></span>
           <span class="brand-text">CodeKids Academy</span>
         </a>
@@ -321,17 +321,17 @@
       <div class="col-lg-2 col-6">
         <h6 class="footer-heading">HOME</h6>
         <ul class="footer-links">
-          <li><a href="#introduction">Introduction</a></li>
-          <li><a href="#featured">Featured</a></li>
+          <li><a href="#home">Introduction</a></li>
+          <li><a href="#introduction">Featured</a></li>
         </ul>
       </div>
       <div class="col-lg-2 col-6">
         <h6 class="footer-heading">CATEGORIES</h6>
         <ul class="footer-links">
-          <li><a href="#courses">Web Basics</a></li>
-          <li><a href="#courses">Creative Design</a></li>
-          <li><a href="#courses">Interactive Fun</a></li>
-          <li><a href="#courses">Build &amp; Publish</a></li>
+          <li><a href="#categories-section">Web Basics</a></li>
+          <li><a href="#categories-section">Creative Design</a></li>
+          <li><a href="#categories-section">Interactive Fun</a></li>
+          <li><a href="#categories-section">Build &amp; Publish</a></li>
         </ul>
       </div>
       <div class="col-lg-2 col-6">
